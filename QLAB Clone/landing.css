@@ -1,0 +1,672 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter Variable', sans-serif;
+}
+header{
+   width: 100%;
+    /* height: 1374.61px; */
+    background-color: rgba(1, 0, 1, 0.83);
+    color: white;
+    height: 697.305px;
+
+}
+.head_content{
+    display: grid;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 100px;
+    margin-top: 102.6525px;
+ font-weight: bolder;
+
+    
+
+}
+.head_content_spread{
+    display: inline-block;
+     /* Define the gradient as the background for the text */
+     background-image: linear-gradient(90deg, #1C99FE 0%, #7644FF 50%, #FD4766 100%);
+     /* Clip the background to just the text */
+   
+     background-clip: text;
+     /* Set the color of the text to transparent */
+     color: transparent;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.favicon img{
+    width: 112px;
+    height: 71px;
+
+
+}
+.sub_nav2{
+    
+
+}
+.sub_nav2 ul{
+    list-style: none;
+    display: flex;
+    
+}
+.sub_nav2 ul li{
+    margin: 20px;
+
+}
+.btn button{
+    width: 148px;
+    height: 50px;
+    border-radius: 100px;
+    border: 1px solid purple;
+    background-color: transparent;
+    color: white;
+
+}
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    header{
+        height: auto;
+    }
+    .head_content {
+        font-size: 24px;
+        margin-top: 10px; /* Adjust margin for smaller screens */
+        line-height: 95px;
+    }
+    
+    
+    .head_content_spread {
+        font-size: 24px; /* Adjust font size for gradient text */
+    }
+
+    .favicon img {
+        width: 80px; /* Reduce width of favicon for smaller screens */
+        height: auto; /* Allow height to adjust proportionally */
+    }
+
+    .sub_nav2 ul li {
+        margin: 5px; /* Reduce margin between navigation items */
+    }
+
+    .btn button {
+        width: 120px; /* Reduce button width for smaller screens */
+        height: 40px; /* Reduce button height for smaller screens */
+    }
+}
+
+
+.ourmission{
+    width: 100%;
+    height: 1014px;
+
+}
+.ourmission_head {
+    
+    text-align: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 68px;
+
+}
+.ourmission_box{
+    display: flex;
+    flex-direction: row;
+
+}
+.ourmission_imgs {
+    width: 50%;
+    position: relative;
+}
+.ourmission_img1 img{
+    width: 633px;
+    height: 648px;
+}
+.ourmission_img2 {
+    position: absolute;
+    top: 211px;
+
+}
+.ourmission_img2 img{
+        width: 363px;
+    height: 513px;
+
+}
+.ourmission_content{
+    height: 300PX;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 65px;
+    margin-left: 73px;
+}
+.ourmission_content span{
+    font-weight: 600;
+    background-image: linear-gradient(90deg, #1C99FE 0%, #7644FF 50%, #FD4766 100%);
+    background-clip: text;
+    color: transparent;
+}
+@media (max-width: 768px) {
+    .ourmission {
+        height: auto; /* Adjust height for smaller screens */
+    }
+
+    .ourmission_head {
+        margin: 20px 0; /* Adjust margin for smaller screens */
+    }
+
+    .ourmission_box {
+        flex-direction: column; /* Change flex direction for smaller screens */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ourmission_imgs,
+    .ourmission_img2 {
+        width: 50%; /* Ensure images take full width on smaller screens */
+    }
+
+    .ourmission_img1 img {
+        width: 100%; /* Make image responsive to its container */
+        height: auto; /* Allow height to adjust proportionally */
+    }
+
+    .ourmission_img2 {
+        position: absolute; /* Remove absolute positioning for smaller screens */
+        TOP: 186px;
+    }
+
+    .ourmission_img2 img {
+        width: 100%; /* Make image responsive to its container */
+        height: auto; /* Allow height to adjust proportionally */
+    }
+
+    .ourmission_content {
+        margin-left: 0; /* Remove left margin for smaller screens */
+        padding: 0 20px; /* Add padding to content for smaller screens */
+        font-size: 24px; /* Adjust font size for smaller screens */
+        line-height: 1.5; /* Adjust line height for smaller screens */
+    }
+
+    .ourmission_content span {
+        font-size: inherit; /* Inherit font size from parent */
+    }
+}
+
+.Experts_growts{
+    display: grid;
+    place-items: center;
+}
+.Experts_growts_box{
+    width: 50%;
+   
+    
+}
+.Experts_growts_h3{
+    display: grid;
+    place-content: center;
+}
+.Experts_growts_h3 h3{
+    width: 186px;
+    height: 18px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    background-image: linear-gradient(90deg, #1C99FE 0%, #7644FF 50%, #FD4766 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+
+.Experts_growts_h1 h1{
+   
+    /* font-family: poppins; */
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 62px;
+    text-align: center;
+}
+.Experts_growts_lists{
+    margin-top: 40px;   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+#Experts_growts_list{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50vh;
+    
+}
+#Experts_growts_list_p1{
+    Width :126px;
+    Height :62px;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 62px;
+    text-align: center;
+
+}
+#Experts_growts_list_p2{
+    Width :109px;
+    Height :56px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+
+}
+@media (max-width: 768px) {
+    .Experts_growts_box {
+        width: 90%; /* Adjust width for smaller screens */
+        max-width: 600px; /* Limit maximum width for smaller screens */
+    }
+    
+    .Experts_growts_h3 h3 {
+        font-size: 20px; /* Adjust font size for smaller screens */
+        line-height: 1.2; /* Adjust line height for smaller screens */
+    }
+
+    .Experts_growts_h1 h1 {
+        font-size: 36px; /* Adjust font size for smaller screens */
+        line-height: 1.5; /* Adjust line height for smaller screens */
+    }
+
+    .Experts_growts_lists {
+        flex-direction: column; /* Stack items vertically for smaller screens */
+        align-items: center; /* Center items horizontally for smaller screens */
+    }
+
+    #Experts_growts_list {
+        margin-bottom: 30px; /* Adjust margin between items for smaller screens */
+    }
+
+    #Experts_growts_list_p1 {
+        font-size: 30px; /* Adjust font size for smaller screens */
+        line-height: 1.2; /* Adjust line height for smaller screens */
+    }
+
+    #Experts_growts_list_p2 {
+        font-size: 14px; /* Adjust font size for smaller screens */
+        line-height: 1.2; /* Adjust line height for smaller screens */
+    }
+}
+
+
+
+.our_products{
+    width: 100%;
+ height: 1260px;
+ /* margin-top: 15vh; */
+}
+
+.our_products_box1{
+    display: flex;
+    flex-direction: row;
+
+
+}
+.our_products img{
+    width: 50%;
+    height: auto;
+
+}
+.our_products_box2{
+    
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.our_products_box2 img{
+    /* width: 100%; */
+    height: auto;
+}
+.Field_Experts{
+    position: relative;
+}
+.Field_Experts_contents{
+    margin-left: 118PX;
+}
+.Field_Experts_cont2{
+    margin-top: 20px;
+}
+.Feild_experts_lists{
+    margin-top: 20px;
+}
+.Field_Experts_list{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+
+}
+.Field_Experts_rlist{
+    position: absolute;
+    top: 111px;
+    left: 80.50vw;
+    
+}
+.creator_card{
+    width: 309px;
+    height: 306.39px;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, rgba(59, 59, 59, 1), rgba(59, 59, 59, 1), rgba(170, 74, 132, 1), rgba(170, 74, 132, 1), rgba(151, 160, 232, 1), rgba(151, 160, 232, 1));
+
+    display: grid;
+    place-items: center;
+    margin-right: 16px;
+    margin-top: 28px;
+   
+}
+.creator_card_numbering{
+    width: 9px;
+    height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 50%;
+    background-color: #32322c;
+    color: #FFFFFF;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    padding-left: 5px;
+}
+.creator_card_pic{
+    width: 161.39px;
+    height: 161.39px;
+    border-radius: 50%;
+    
+}
+.creator_card_content{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    
+}
+.Top_expertise{
+padding: 200px 36px;
+}
+.Top_expertise_h3{
+    display: grid;
+    place-content: center;
+}
+.Top_expertise_h3 h3{
+    width: 186px;
+    height: 18px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    background-image: linear-gradient(90deg, #1C99FE 0%, #7644FF 50%, #FD4766 100%);
+    background-clip: text;
+    color: transparent;
+
+}
+.Top_expertise_h1{
+   
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 76px;
+    text-align: center;
+}
+.Top_expertise_pic{
+ display: flex;
+ flex-direction: column;
+ position: relative;
+ top: 86px;
+
+}
+.Top_expertise_pic img{
+    /* width: 1648px; */
+    height: 377px;
+}
+
+@media (max-width: 768px) {
+    .our_products {
+        height: auto; /* Adjust height for smaller screens */
+        margin-top: 10vh; /* Adjust margin for smaller screens */
+    }
+
+    .our_products_box1 {
+        flex-direction: column; /* Stack images vertically for smaller screens */
+    }
+
+    .our_products img {
+        width: 100%; /* Make images responsive to their container */
+        height: auto; /* Allow height to adjust proportionally */
+        margin-bottom: 20px; /* Add margin between images for smaller screens */
+    }
+
+    .our_products_box2 img {
+        max-width: 100%; /* Ensure image does not exceed container width */
+        height: auto; /* Allow height to adjust proportionally */
+    }
+
+    .Field_Experts_contents {
+        margin-left: 20px; /* Adjust margin for smaller screens */
+    }
+
+    .Feild_experts_lists {
+        margin-top: 20px; /* Adjust margin for smaller screens */
+    }
+
+    .Field_Experts_list {
+        flex-direction: column; /* Stack cards vertically for smaller screens */
+        align-items: center; /* Center cards horizontally for smaller screens */
+    }
+
+    .creator_card {
+        width: 80%; /* Adjust card width for smaller screens */
+        margin-right: 0; /* Remove right margin for smaller screens */
+        margin-top: 20px; /* Adjust margin between cards for smaller screens */
+    }
+
+    .creator_card_numbering {
+        padding: 5px; /* Adjust padding for smaller screens */
+    }
+
+    
+
+    .creator_card_content {
+        font-size: 14px; /* Adjust font size for smaller screens */
+        line-height: 1.3; /* Adjust line height for smaller screens */
+    }
+}
+
+.Get_intouch{
+    margin: 50px 137px;
+}
+.Get_intouch_h3{
+    display: grid;
+    place-items: center;
+}
+.Get_intouch_h3 h3{
+
+    width: 186px;
+    height: 18px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    background-image: linear-gradient(90deg, #1C99FE 0%, #7644FF 50%, #FD4766 100%);
+    background-clip: text;
+    color: transparent;
+}
+.Get_intouch_h1{
+    
+    /* font-family: poppins; */
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 80px;
+    text-align: center;
+}
+.Get_intouch_pic {
+    display: flex;
+    flex-direction: row;
+
+    padding: 110px 0px;
+    
+}
+.Get_intouch_pic img{
+    width: 420px;
+    height: 461px;
+    
+}
+@media (max-width: 768px) {
+    .Top_expertise {
+        padding: 50px 20px; /* Adjust padding for smaller screens */
+    }
+
+    .Top_expertise_h1 h1 {
+        font-size: 36px; /* Adjust font size for smaller screens */
+        line-height: 1.5; /* Adjust line height for smaller screens */
+    }
+
+    .Top_expertise_pic {
+        display: flex;
+        flex-direction: column; /* Stack images vertically for smaller screens */
+        align-items: center; /* Center images horizontally for smaller screens */
+        margin-top: 20px; /* Adjust margin between images for smaller screens */
+    }
+
+    .Top_expertise_pic img {
+        width: 100%; /* Make images responsive to their container */
+        height: auto; /* Allow height to adjust proportionally */
+        margin-bottom: 20px; /* Add margin between images for smaller screens */
+    }
+
+    .Get_intouch {
+        margin: 50px 20px; /* Adjust margin for smaller screens */
+    }
+
+    .Get_intouch_h1 h1 {
+        font-size: 36px; /* Adjust font size for smaller screens */
+        line-height: 1.5; /* Adjust line height for smaller screens */
+    }
+
+    .Get_intouch_pic {
+        display: flex;
+        align-items: center; /* Center images horizontally for smaller screens */
+        padding: 20px 0; /* Adjust padding for smaller screens */
+    }
+
+    .Get_intouch_pic img {
+        width: 50%; /* Make images responsive to their container */
+        height: auto; /* Allow height to adjust proportionally */
+        margin-bottom: 20px; /* Add margin between images for smaller screens */
+    }
+}
+
+
+footer{
+    width:  100%;
+    height: 444px;
+    background-color:rgba(1, 0, 1, 0.83);
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    line-height: 20px;
+    
+}
+.footer_box1{
+    
+    line-height: 76px;
+    text-align: left;
+    
+}
+.footer_box1_img{
+    position: relative;
+    top: 24px;
+}
+.footer_box2 {
+   
+    text-align: left;
+    margin-left: -31px;
+    margin-top: 104px;
+}
+.footer_box2 div{
+   margin-top: 20px;
+   
+}
+.footer_box3{
+    line-height: 44px;
+    text-align: left;
+    padding-top: 114px;
+}
+.input-field {
+   
+    height: 31px; /* Height to hug its content (25 pixels) */
+    padding: 2px 147px  2px 3px; /* Padding: 2px top, 288px right, 2px bottom, 0px left */
+    border-radius: 20px;
+}
+
+.btnl {
+    position: relative;
+    left: 254px;
+    bottom: 43px;
+    border-radius: 100px;
+    background-color: rgba(210, 60, 167, 1);
+    color: white;
+    padding: 8px 13.59px 10px 13.79px;
+
+}
+
+@media (max-width: 768px) {
+    footer {
+        width: auto;
+        height: auto; /* Adjust height for smaller screens */
+        flex-direction: column; /* Stack items vertically for smaller screens */
+        padding: 20px; /* Add padding for smaller screens */
+    }
+
+    .footer_box1,
+    .footer_box2,
+    .footer_box3 {
+        text-align: center; /* Center align content for smaller screens */
+        margin: 20px 0; /* Add margin between boxes for smaller screens */
+    }
+
+    .footer_box2 {
+        margin-left: 0; /* Remove left margin for smaller screens */
+    }
+
+    .input-field {
+        width: 100%; /* Make input field full width for smaller screens */
+        margin-bottom: 10px; /* Add margin below input field for smaller screens */
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .btnl {
+        position: static; /* Remove absolute positioning for smaller screens */
+        margin-left: 10px; /* Align button to right for smaller screens */
+        margin-right: 10px; /* Align button to right for smaller screens */
+        display: block; /* Make button full width for smaller screens */
+    }
+}
+
